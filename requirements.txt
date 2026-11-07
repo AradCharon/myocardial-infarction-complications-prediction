@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn>=1.3
+imbalanced-learn
+xgboost
+lightgbm
+shap
+matplotlib
+ucimlrepo
