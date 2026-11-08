@@ -1,0 +1,7 @@
+target,method,coefficient,intercept,input,training_samples
+LET_IS,Platt Scaling,9.404378102015908,-5.150794784684715,raw_probability,1360
+LET_IS,Logit Recalibration,2.0422516414782574,-0.4598850677437635,logit_probability,1360
+ZSN,Platt Scaling,4.613065073884053,-3.1310396242747522,raw_probability,1360
+ZSN,Logit Recalibration,0.8452271487437705,-0.9250501977350968,logit_probability,1360
+FIBR_PREDS,Platt Scaling,6.74630523196999,-4.198464330643359,raw_probability,1360
+FIBR_PREDS,Logit Recalibration,1.4002189956015973,-0.896809139885573,logit_probability,1360

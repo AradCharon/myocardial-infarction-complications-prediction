@@ -1,0 +1,44 @@
+{
+    "LET_IS_LogisticRegression": {
+        "model__solver": "lbfgs",
+        "model__penalty": "l2",
+        "model__class_weight": null,
+        "model__C": 0.8531678524172814
+    },
+    "LET_IS_RandomForest": {
+        "model__n_estimators": 1000,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "log2",
+        "model__max_depth": 10,
+        "model__class_weight": "balanced_subsample"
+    },
+    "ZSN_LogisticRegression": {
+        "model__solver": "lbfgs",
+        "model__penalty": "l2",
+        "model__class_weight": "balanced",
+        "model__C": 0.02395026619987486
+    },
+    "ZSN_RandomForest": {
+        "model__n_estimators": 700,
+        "model__min_samples_split": 10,
+        "model__min_samples_leaf": 4,
+        "model__max_features": 0.5,
+        "model__max_depth": null,
+        "model__class_weight": "balanced"
+    },
+    "FIBR_PREDS_LogisticRegression": {
+        "model__solver": "lbfgs",
+        "model__penalty": "l2",
+        "model__class_weight": "balanced",
+        "model__C": 6.2101694189156165
+    },
+    "FIBR_PREDS_RandomForest": {
+        "model__n_estimators": 700,
+        "model__min_samples_split": 2,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "log2",
+        "model__max_depth": 10,
+        "model__class_weight": null
+    }
+}

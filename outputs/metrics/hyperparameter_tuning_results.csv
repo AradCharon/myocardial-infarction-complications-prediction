@@ -1,0 +1,7 @@
+target,model,best_auprc,train_auprc,best_params
+LET_IS,LogisticRegression,0.6460734526825209,0.7543735013645254,"{""model__solver"": ""lbfgs"", ""model__penalty"": ""l2"", ""model__class_weight"": null, ""model__C"": 0.8531678524172814}"
+LET_IS,RandomForest,0.6694823965768787,0.9941458988220078,"{""model__n_estimators"": 1000, ""model__min_samples_split"": 5, ""model__min_samples_leaf"": 2, ""model__max_features"": ""log2"", ""model__max_depth"": 10, ""model__class_weight"": ""balanced_subsample""}"
+ZSN,LogisticRegression,0.3451166166780282,0.39287808265068797,"{""model__solver"": ""lbfgs"", ""model__penalty"": ""l2"", ""model__class_weight"": ""balanced"", ""model__C"": 0.02395026619987486}"
+ZSN,RandomForest,0.5143485715427192,0.9735424027617599,"{""model__n_estimators"": 700, ""model__min_samples_split"": 10, ""model__min_samples_leaf"": 4, ""model__max_features"": 0.5, ""model__max_depth"": null, ""model__class_weight"": ""balanced""}"
+FIBR_PREDS,LogisticRegression,0.26011813557526564,0.42591664114265315,"{""model__solver"": ""lbfgs"", ""model__penalty"": ""l2"", ""model__class_weight"": ""balanced"", ""model__C"": 6.2101694189156165}"
+FIBR_PREDS,RandomForest,0.3009310279239834,0.9734440738925774,"{""model__n_estimators"": 700, ""model__min_samples_split"": 2, ""model__min_samples_leaf"": 2, ""model__max_features"": ""log2"", ""model__max_depth"": 10, ""model__class_weight"": null}"
